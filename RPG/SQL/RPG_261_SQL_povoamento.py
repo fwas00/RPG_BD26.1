@@ -39,11 +39,12 @@ def povoar_banco():
         CONSTRAINT PK_Missao PRIMARY KEY (ID_Missao)
     );
 
-    CREATE TABLE IF NOT EXISTS Inventario (
+    CREATE TABLE Inventario (
         ID_Inventario INT NOT NULL,
-        Tipo_Inventario VARCHAR(50) NOT NULL,
+        Tipo_Inventario VARCHAR(20) NOT NULL, -- O nosso Atributo Discriminador
         Tamanho INT NOT NULL,
-        CONSTRAINT PK_Inventario PRIMARY KEY (ID_Inventario)
+        CONSTRAINT PK_Inventario PRIMARY KEY (ID_Inventario),
+        CONSTRAINT CHK_Tipo_Inventario_Valido CHECK (Tipo_Inventario IN ('Individual', 'Compartilhado', 'Quest'))
     );
 
     CREATE TABLE IF NOT EXISTS Itens (
