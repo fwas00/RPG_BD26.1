@@ -31,9 +31,10 @@ CREATE TABLE Missao (
 
 CREATE TABLE Inventario (
     ID_Inventario INT NOT NULL,
-    Tipo_Inventario VARCHAR(50) NOT NULL,
+    Tipo_Inventario VARCHAR(20) NOT NULL, -- O nosso Atributo Discriminador
     Tamanho INT NOT NULL,
-    CONSTRAINT PK_Inventario PRIMARY KEY (ID_Inventario)
+    CONSTRAINT PK_Inventario PRIMARY KEY (ID_Inventario),
+    CONSTRAINT CHK_Tipo_Inventario_Valido CHECK (Tipo_Inventario IN ('Individual', 'Compartilhado', 'Quest'))
 );
 
 CREATE TABLE Itens (
