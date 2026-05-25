@@ -1,7 +1,7 @@
 # PROJETO GDI 26.1
 
 ## TEMA
-* MMORPG
+* RPG
 
 ## GRUPO
 * Fábio Willian Andrade Silva (FWAS)
