@@ -2,7 +2,7 @@
 
 ## TEMA
 * RPG
-* No continente de Gaia, os Jogadores invocam seus heróis através do pacto ancestral Criando personagens lendários como  Guerreiros ou Magos. Cada herói caminha ao lado de um Pet fiel e carrega Inventários mágicos que possuem varios itens, que são usados para facilitar sua aventuras, alem disso participam de Guildas afim de cooperar com outras pessoas nas aventuras. No entanto, a paz é frágil, pois Guildas rivais disputam glória no território criando Rivalidades e com isso aceitando contratos perigosos em várias Regiões, cruzando Regiões inexploradas para cumprir Missões cruciais.
+* Historia de Contextualização: No continente de Gaia, os Jogadores invocam seus heróis através do pacto ancestral Criando personagens lendários como  Guerreiros ou Magos. Cada herói caminha ao lado de um Pet fiel e carrega Inventários mágicos que possuem varios itens, que são usados para facilitar sua aventuras, alem disso participam de Guildas afim de cooperar com outras pessoas nas aventuras. No entanto, a paz é frágil, pois Guildas rivais disputam glória no território criando Rivalidades e com isso aceitando contratos perigosos em várias Regiões, cruzando Regiões inexploradas para cumprir Missões cruciais.
 
 ## GRUPO
 * Fábio Willian Andrade Silva (FWAS)
